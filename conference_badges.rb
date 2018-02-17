@@ -12,9 +12,7 @@ end
 
 def assign_rooms(attendees)
   room_assignments = []
-  attendees.each { |i| room_assignments <<  }
-
   attendees.each_with_index { |name, index| room_assignments << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
-  hash[item] = index
+  room_assignments
 }
 end
