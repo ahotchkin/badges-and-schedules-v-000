@@ -20,5 +20,3 @@ def printer(attendees)
   puts badges
   puts room_assignments
 end
-
-printer(attendees)
