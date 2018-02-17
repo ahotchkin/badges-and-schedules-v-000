@@ -1,6 +1,5 @@
 # Write your code here.
 
-def conference_badges(attendees)
+def badge_maker(attendees)
   attendees each {|i| "Hello my name is #{i}."}
-
 end
